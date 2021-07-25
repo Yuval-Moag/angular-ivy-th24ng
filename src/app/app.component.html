@@ -1,4 +1,34 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <app-tab-wrapper>
+        <tabs-items>
+          <tab-item>
+            <ng-template #headerTemplate>
+              Tab 1 header
+            </ng-template>
+            <ng-template #template>
+              Tab 1 content
+            </ng-template>
+          </tab-item>
+          <tab-item>
+            <ng-template #headerTemplate>
+              Tab 2 header
+            </ng-template>
+            <ng-template #template>
+              Tab 2 content
+            </ng-template>
+          </tab-item>
+          <tab-item>
+            <ng-template #headerTemplate>
+              Tab 3 header
+            </ng-template>
+            <ng-template #template>
+              Tab 3 content
+            </ng-template>
+          </tab-item>
+        </tabs-items>
+      </app-tab-wrapper>
+    </div>
+  </div>
+</div>
